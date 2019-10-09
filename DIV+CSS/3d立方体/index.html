@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				perspective: 800px;
+			}
+
+			.stage {
+				position: relative;
+				width: 200px;
+				height: 200px;
+				margin: 300px auto;
+				transform-style: preserve-3d;
+				transition: 2s;
+			}
+
+			.stage:hover {
+				transform: rotateY(315deg);
+			}
+
+			.stage .face {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				box-shadow: 0 0 20px 0 green inset;
+				text-align: center;
+				color: black;
+				font-weight: 600;
+				line-height: 200px;
+				font-size: 30px;
+			}
+
+			.stage>.front {
+				transform: translateZ(100px);
+			}
+
+			.stage>.behind {
+				transform: rotateY(180deg) translateZ(100px);
+			}
+
+			.stage>.left {
+				transform: rotateY(-90deg) translateZ(100px);
+			}
+
+			.stage>.right {
+				transform: rotateY(90deg) translateZ(100px);
+			}
+
+			.stage>.top {
+				transform-origin: top center;
+				transform: translateZ(-100px) rotateX(90deg);
+				box-shadow: 0 0 20px 0 red inset;
+				/* transform: rotateY(90deg) translateZ(100px); */
+				transition: 2s;
+			}
+
+			.stage:hover>.top {
+				transform: translateZ(-100px) rotateX(225deg);
+			}
+
+			.stage>.bottom {
+				transform: rotateY(-90deg) translateZ(100px);
+			}
+
+			.stage:hover .small-stage {
+				transform: translateY(-300px);
+			}
+
+			.small-stage {
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				width: 50%;
+				height: 50%;
+				margin: auto;
+				transition: 2s;
+				transform-style: preserve-3d;
+			}
+
+			.small-stage .front {
+				transform: translateZ(50px);
+				background: url(img/1.png) no-repeat;
+				background-size: cover;
+			}
+
+			.small-stage .behind {
+				transform: rotateY(180deg) translateZ(50px);
+				background: url(img/2.png) no-repeat;
+				background-size: cover;
+			}
+
+			.small-stage .left {
+				transform: rotateY(-90deg) translateZ(50px);
+				background: url(img/3.jpg) no-repeat;
+				background-size: cover;
+			}
+
+			.small-stage .right {
+				transform: rotateY(90deg) translateZ(50px);
+				background: url(img/4.jpg) no-repeat;
+				background-size: cover;
+			}
+
+			.small-stage .top {
+				transform: rotateY(90deg) translateZ(50px);
+				background: url(img/5.jpg) no-repeat;
+				background-size: cover;
+			}
+
+			.small-stage .bottom {
+				transform: rotateY(-90deg) translateZ(50px);
+				background: url(img/6.jpg) no-repeat;
+				background-size: cover;
+			}
+
+			.stage span {
+				position: absolute;
+				bottom: -60px;
+				left: 45px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="stage">
+			<div class="face top"></div>
+			<div class="face bottom"></div>
+			<div class="face left"></div>
+			<div class="face right"></div>
+			<div class="face front"><span>Mi.com</span></div>
+			<div class="face behind"></div>
+			<div class="small-stage">
+				<a href="#"><div class="face top"></div></a>
+				<a href="#"><div class="face bottom"></div></a>
+				<a href="#"><div class="face left"></div></a>
+				<a href="#"><div class="face right"></div></a>
+				<a href="#"><div class="face front"></div></a>
+				<a href="#"><div class="face behind"></div></a>
+				
+			</div>
+		</div>
+	</body>
+</html>
