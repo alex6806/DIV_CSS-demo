@@ -1,0 +1,1088 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Author" content="">
+	<meta name="Keywords" content="关键字">
+	<meta name="Description" content="描述">
+	<title>Welcome to TheFakeWorld</title>
+	<style>
+			*{
+				margin:0;
+				padding:0;
+			}
+			ul,ol{
+				list-style:none;
+			}
+			a{
+				text-decoration:none;
+			}
+			img{
+				border:0;
+			}
+			.miShop{
+				position: relative;
+				width:1226px;
+				height:460px;
+				border: 1px solid red;
+				margin:100px auto;
+			}
+			.banner{
+				height: 100%;
+			}
+			.banner li{
+				overflow: hidden;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+			}
+			.menu{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 236px;
+				height: 420px;
+				padding: 20px 0;
+				background-color: rgba(0,0,0,.6);
+				font-size: 14px;
+			}
+			.menu-opt{
+				height: 42px;
+				line-height: 42px;
+				
+			}
+			.menu-opt > a{
+				display: block;
+				padding: 0 20px;
+				color: #fff;
+			}
+			.menu-opt i{
+				float: right;
+				font-style: normal;
+			}
+			.menu-opt:hover{
+				background-color: #f60;
+			}
+			.new-menu{
+				display: none;
+				position: absolute;
+				top: 0;
+				left: 236px;
+				width: 990px;
+				height: 458px;
+				border: 1px solid yellowgreen;
+				background-color: #fff;
+			}
+			.new-menu ul{
+				float: left;
+				width: 245px;
+			}
+			.new-menu li{
+				height: 76px;
+				line-height: 76px;
+				
+			}
+			.new-menu a{
+				display: block;
+				padding-left: 20px;
+				color: #000;
+			}
+			.new-menu img{
+				width: 40px;
+				margin-right: 8px;
+				vertical-align: middle;
+			}
+			.new-menu a:hover{
+				color: red;
+			}
+			.menu-opt:hover .new-menu{
+				display: block;
+			}
+			.btn-pub{
+				position: absolute;
+				top: 50%;
+				width: 42px;
+				height: 70px;
+				background: url(images/btn.png) no-repeat;
+			}
+			.left-btn{
+				left: 236px;
+				background-position: -84px 0;
+			}
+			.right-btn{
+				right: 0;
+				background-position: -126px 0;
+			}
+			.left-btn:hover{
+				background-position: 0 0;
+			}
+			.right-btn:hover{
+				background-position: -42px 0;
+			}
+			.dots{
+				position: absolute;
+				bottom: 20px;
+				right: 20px;
+				width: 100px;
+				height: 10px;	
+			}
+			.dots span{
+				float: left;
+				width:6px;
+				height:6px;
+				border: 2px solid #ccc;
+				margin: 0 5px;
+				background-color: #999;
+				border-radius: 50%;
+			}
+			.dots .active{
+				background-color: #fff;
+			}
+			.dots span:hover{
+				background-color: #fff;
+			}
+	</style>
+	</head>
+	<body>
+		<div class="miShop">
+			<div class="banner">
+				<ul>
+					<li class="banner-img">
+						<a href="">
+							<img src="images/banner/1.jpg" alt=""/>
+						</a>
+					</li>
+					<li class="banner-img">
+						<a href="">
+							<img src="images/banner/2.jpg" alt=""/>
+						</a>
+					</li>
+					<li class="banner-img">
+						<a href="">
+							<img src="images/banner/3.jpg" alt=""/>
+						</a>
+					</li>
+					<li class="banner-img">
+						<a href="">
+							<img src="images/banner/5.jpg" alt=""/>
+						</a>
+					</li>
+					<li class="banner-img">
+						<a href="">
+							<img src="images/banner/4.jpg" alt=""/>
+						</a>
+					</li>
+				</ul>
+				
+			</div>
+			<div class="btn">
+				<a href="javascript:;" class="left-btn btn-pub"></a>
+				<a href="javascript:;" class="right-btn btn-pub"></a>
+			</div>
+			<div class="dots">
+				<span class="active"></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				
+			</div>
+			<div class="menu">
+				<ul>
+					<li class="menu-opt">
+						<a href=""><span>手机</span> <span>电话卡</span>
+						<i>></i></a>
+						<div class="new-menu">
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/2.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/2.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/4.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/5.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/5.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="menu-opt">
+						<a href=""><span>手机</span> <span>电话卡</span>
+						<i>></i></a>
+						<div class="new-menu">
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="menu-opt">
+						<a href=""><span>手机</span> <span>电话卡</span>
+						<i>></i></a>
+						<div class="new-menu">
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="menu-opt">
+						<a href=""><span>手机</span> <span>电话卡</span>
+						<i>></i></a>
+						<div class="new-menu">
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="menu-opt">
+						<a href=""><span>手机</span> <span>电话卡</span>
+						<i>></i></a>
+						<div class="new-menu">
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="menu-opt">
+						<a href=""><span>手机</span> <span>电话卡</span>
+						<i>></i></a>
+						<div class="new-menu">
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="menu-opt">
+						<a href=""><span>手机</span> <span>电话卡</span>
+						<i>></i></a>
+						<div class="new-menu">
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="menu-opt">
+						<a href=""><span>手机</span> <span>电话卡</span>
+						<i>></i></a>
+						<div class="new-menu">
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="menu-opt">
+						<a href=""><span>手机</span> <span>电话卡</span>
+						<i>></i></a>
+						<div class="new-menu">
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="menu-opt">
+						<a href=""><span>手机</span> <span>电话卡</span>
+						<i>></i></a>
+						<div class="new-menu">
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+								<li>
+									<a href=""><img src="images/item/1/1.png" alt=""><span>小米Note7</span></a>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			
+		</div>
+		
+	</body>
+</html>

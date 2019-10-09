@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="关键字">
+    <meta name="Description" content="描述">
+    <title>Welcome to the FakeWorld</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul, ol {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        img {
+            border: 0;
+        }
+        body{
+            background-color: #F0F3EF;
+        }
+        .box{
+            width: 1190px;
+            height: 450px;
+            margin: 100px auto;
+        }
+        .son-box{
+            float: left;
+            width: 350px;
+            height: 100%;
+            padding: 0 20px;
+            background-color: #FFF;
+        }
+        .middle-box{
+            margin: 0 10px;
+        }
+        .title{
+            height: 60px;
+        }
+        .title a{
+            display: inline-block;
+            height: 40px;
+            margin-top: 10px;
+            line-height: 40px;
+        }
+        .title h3{
+            float: left;
+            font-size: 24px;
+            font-weight: normal;
+            vertical-align: middle;
+        }
+        .title i{
+            float: left;
+            width: 23px;
+            height: 23px;
+            background: url("images/1.png") no-repeat;
+            margin: 9px 5px 0;
+            vertical-align: middle;
+        }
+        .title span{
+            font-size: 14px;
+            color: #999;
+            vertical-align: middle;
+        }
+        .main-view{
+            position: relative;
+            height: 355px;
+            border-bottom: 1px solid #f5f5f5;
+        }
+        .hi-banner{
+            overflow: hidden;
+        }
+        .banner{
+            position: relative;
+            width: 300%;
+            height: 355px;
+            top: 0;
+            left: 0;
+            transition: 1s;
+        }
+        .item{
+            float: left;
+            width: 350px;
+            height: 355px;
+        }
+        .pic{
+            height: 250px;
+        }
+        .item-name{
+            font-size: 16px;
+            color: #333;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .item-desc{
+            overflow: hidden;
+            font-size: 14px;
+            color: #999;
+            height: 40px;
+            line-height: 1.5;
+        }
+        .btn{
+            position: absolute;
+            top: 50%;
+            width: 20px;
+            height: 40px;
+            margin-top: -20px;
+            background-color: rgba(0,0,0,.3);
+        }
+        .left-btn{
+            left: -20px;
+        }
+        .right-btn{
+            right: -20px;
+        }
+        .banner .btn:hover{
+            background-color: rgba(0,0,0,.5);
+        }
+        .chosen-item{
+            float: left;
+            width: 175px;
+            height: 184px;
+            text-align: center;
+        }
+        .mid-item-img{
+            width: 110px;
+            height: 110px;
+            margin: 0 auto;
+        }
+        .mid-item-name{
+            display: block;
+            font-size: 14px;
+            color: #3e8c96;
+            font-weight: bold;
+            height: 16px;
+            padding: 0 10px;
+            line-height: 16px;
+            margin-top: 20px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .mid-item-desc{
+            display: block;
+            font-size: 12px;
+            line-height: 14px;
+            padding: 0 8px;
+            margin-top: 6px;
+            color: #666;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        .right-item-img{
+            width: 350px;
+            height: 250px;
+        }
+        .bottom-item-img{
+            width: 360px;
+            margin: 10px auto;
+        }
+        .img-down{
+            float: left;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left-box son-box">
+            <div class="title">
+                <a href="">
+                    <h3>觅me</h3><i></i><span>探索生活</span>
+                </a>
+            </div>
+            <div class="main-view">
+                <div class="hi-banner">
+                    <div class="banner">
+                        <div class="item view-1">
+                            <a href="">
+                                <div class="pic">
+                                    <img src="images/1.jpg" alt="">
+                                </div>
+                                <div class="con">
+                                    <p class="item-name">iPhone XS和iPhone X性能和配置都非常好</p>
+                                    <p class="item-desc">对于iPhone的手机，除了贵之外不可否认的是苹果的手机，它的流畅度真的非常的好，实用性会比国产手机更高一些。
+                                        而对于现在想买iPhone手机的人来说比较纠结，两款手机就是iPhone x和iphonexs，这是一个2选1的难题，有很多人说有钱这两个手机就可以都买下，就不用再做选择题了，
+                                        但是现在的问题是你没有钱，只能够从这两款手机当中选一个iPhone xs太贵了买不起，现在的iphonexs又调整，
+                                        那么在这两款手机当中该做何选择呢？</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item view-2">
+                            <a href="" >
+                                <div class="pic">
+                                    <img src="images/2.jpg" alt="">
+                                </div>
+                                <div class="con">
+                                    <p class="item-name">iPhone XR的使用评测,让人吃惊的是续航能力</p>
+                                    <p class="item-desc">iPhone XR已经开售一段时间了，不少果粉都已经入手了。如果让iPhone X用户来感受iPhone XR，可能评价还不错，但是不少iPhone6S、6用户来体验的话，可能评价就没有那么好。而最近就有一位将iPhone8Plus换成iPhone XR，让他来说你真实的换机感受，一起来看看到底体验如何？</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item view-3">
+                            <a href="" >
+                                <div class="pic">
+                                    <img src="images/3.jpg" alt="">
+                                </div>
+                                <div class="con">
+                                    <p class="item-name">iPhone 8是一款很完美的苹果手机！</p>
+                                    <p class="item-desc">2019年对于苹果而言也不好过啊，1月2日老库在公开信中强调大中华区的iPhone收入低于预期，虽然他将锅甩给了“贫穷”的国人，但中国市场的变化对iPhone的影响可以说真的相当的大了。</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-btn btn"></div>
+                <div class="right-btn btn"></div>
+            </div>
+        </div>
+        <div class="middle-box son-box">
+            <div class="title">
+                <a href="">
+                    <h3>发现好货</h3><i></i><span>发现品质生活</span>
+                </a>
+            </div>
+            <div class="mid-con">
+                <ul>
+                    <li class="chosen-item">
+                        <a href="">
+                            <div class="mid-item-img">
+                                <img src="images/4.jpg" alt="">
+                            </div>
+                            <p class="mid-item-name">请尊重一个姑娘的努力</p>
+                            <p class="mid-item-desc">这是独立女生的励志手册：一个姑娘用努力去证明自己掌控人生的能力。书中女孩杨熹文以自己的经历给予了答案。努力不是为了与众不同，而是在平凡的生活里拥有掌控力。</p>
+                        </a>
+                    </li>
+                    <li class="chosen-item">
+                        <a href="">
+                            <div class="mid-item-img">
+                                <img src="images/5.jpg" alt="">
+                            </div>
+                            <p class="mid-item-name">渔家翁 厦门 手工面线</p>
+                            <p class="mid-item-desc">源自福建厦门的特产手工面线，采用上等优质小麦，加上百年传统手工制作，面如细丝，口感润滑，细腻香Q，有嚼劲、特别适合老人、 小孩、 宝宝、孕妇食用。</p>
+                        </a>
+                    </li>
+                    <li class="chosen-item">
+                        <a href="">
+                            <div class="mid-item-img">
+                                <img src="images/6.jpg" alt="">
+                            </div>
+                            <p class="mid-item-name">APSU青草小众香水</p>
+                            <p class="mid-item-desc">这款青草芬芳的淡香水，散发清新甜美的味道，渐渐浓郁的幽香释放瞬间，优雅相随令人身心愉悦，体现高贵的气质，符合您的高品味需求。</p>
+                        </a>
+                    </li>
+                    <li class="chosen-item">
+                        <a href="">
+                            <div class="my-img">
+                                <img src="images/7.jpg" alt="">
+                            </div>
+                            <p class="mid-item-name">露得清 维A醇 晚霜</p>
+                            <p class="mid-item-desc">面霜中含有维A醇、透明质酸、植物提取物等成分，能深入肌肤，修复受损细胞，抵抗衰老。还能修复肌肤的储水屏障，提升肌肤保湿力。使用后有效淡化细纹，让肌肤更加年轻、健康。</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-box son-box">
+            <div class="title">
+                <a href="">
+                    <h3>会逛</h3><i></i><span>你想逛的都在这里</span>
+                </a>
+            </div>
+            <div class="right-item-img">
+                <a href="">
+                    <img src="images/08.jpg" alt="">
+                </a>
+            </div>
+            <div class="bottom-item-img">
+                <div class="img1 img-down">
+                    <a href="">
+                        <img src="images/09.jpg" alt="">
+                    </a>
+                </div>
+                <div class="img2 img-down">
+                    <a href="">
+                        <img src="images/10.jpg" alt="">
+                    </a>
+                </div>
+                <div class="img3 img-down">
+                    <a href="">
+                        <img src="images/11.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let bannerCon = document.getElementsByClassName('banner')[0];
+        let leftBtn = document.getElementsByClassName('left-btn')[0];
+        let rightBtn = document.getElementsByClassName('right-btn')[0];
+
+        leftBtn.onclick = function () {
+            let leftNum = bannerCon.offsetLeft;
+            if (leftNum !== 0){
+                let leftNow = leftNum + 350 + 'px';
+                bannerCon.style.left = leftNow
+            }
+        }
+        rightBtn.onclick = function () {
+            let rightNum = bannerCon.offsetLeft;
+            if (rightNum !== -700){
+                let rightNow = rightNum - 350 + 'px';
+                bannerCon.style.left = rightNow
+            }
+        }
+    </script>
+</body>
+</html>

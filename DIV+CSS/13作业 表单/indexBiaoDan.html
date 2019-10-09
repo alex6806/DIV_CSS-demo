@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="关键字">
+    <meta name="Description" content="描述">
+    <title>Welcome to www.alexyou.top</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        img {
+            border: 0;
+        }
+        .wrap{
+            height: 520px;
+            background: url("images/demo3/dlbg.jpg") no-repeat center;
+        }
+        .login{
+            position: absolute;
+            top: 50px;
+            right: 130px;
+            width: 340px;
+            height: 420px;
+            background-color: #f5eae9;
+        }
+        .login form{
+            padding: 30px 40px 5px;
+        }
+        .info{
+            width: 260px;
+            height: 40px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            text-indent: 50px;
+        }
+        [type='text']{
+            background: url("images/demo3/zhanghao.jpg") no-repeat left center;
+        }
+        [type='password']{
+            background: url("images/demo3/mima.jpg") no-repeat left center;
+        }
+        .notice{
+            font-size: 12px;
+
+        }
+        [type='checkbox']{
+            vertical-align: -2px;
+        }
+        .notice a:hover{
+            color: #cc0000;
+        }
+        .submit{
+            width: 100%;
+            height: 40px;
+            border: 0;
+            margin: 20px 0;
+            outline: none;
+            background: url("images/demo3/but.jpg") no-repeat;
+        }
+        .more{
+            padding: 20px;
+            border-top: 1px dotted #ccc;
+            font-size: 14px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="login">
+            <form action="#">
+                <input type="text" name="accountName" class="info"
+                placeholder="请输入账户名">
+                <input type="password" name="pwd" class="info" placeholder="请输入密码">
+                <div class="notice">
+                    <input type="checkbox" name="isRemember" value="0" id="isRemember">
+                    <label for="isRemember">记住我</label>
+                    <a href="">欢迎注册</a>
+                    <a href="">忘记密码？</a>
+                </div>
+                <input type="submit" value="" class="submit" >
+            </form>
+            <div class="more">
+                合作网站账号登录：
+                <a href=""><img src="images/demo3/weixin.png" alt=""></a>
+                <a href=""><img src="images/demo3/qqlogin.png" alt=""></a>
+                <a href=""><img src="images/demo3/taobao.png" alt=""></a>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

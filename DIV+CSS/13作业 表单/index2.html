@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="关键字">
+    <meta name="Description" content="描述">
+    <title>Welcome to www.alexyou.top</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        img {
+            border: 0;
+        }
+        .wrap{
+            width: 395px;
+            height: 390px;
+            margin: 100px auto;
+            padding: 30px 35px 0 0;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            background-color: #fff;
+            text-align: right;
+        }
+        .list{
+            position: relative;
+            margin-bottom: 15px;
+
+        }
+        .list input{
+            width: 290px;
+            height: 45px;
+            border: 1px solid #ccc;
+            text-indent: 10px;
+            border-radius: 10px;
+            outline: none;
+        }
+        .remind{
+            display: none;
+            position: absolute;
+            left: 406px;
+            top: 0;
+            width: 340px;
+            height: 45px;
+            line-height: 45px;
+            text-align: left;
+            background-color: purple;
+            color: #fff;
+            text-indent: 10px;
+            font-size: 18px;
+            border-radius: 10px;
+        }
+        .remind:after{
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 12px;
+            border: 10px solid transparent;
+            border-right-color: purple;
+            border-left: 0;
+        }
+        .list input:focus + .remind{
+            display: block;
+        }
+        .submit input{
+            padding: 10px 20px;
+            background-color: pink;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            text-outline: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <form action="#">
+            <div class="list">
+                user <input type="text">
+                <div class="remind">
+                    用户名必须为4-16位数字或英文字母
+                </div>
+            </div>
+            <div class="list">
+                password <input type="text">
+                <div class="remind">
+                    用户名必须为4-16位数字或英文字母
+                </div>
+            </div>
+            <div class="list">
+                re-password <input type="text">
+                <div class="remind">
+                    用户名必须为4-16位数字或英文字母
+                </div>
+            </div>
+            <div class="list">
+                email <input type="text">
+                <div class="remind">
+                    用户名必须为4-16位数字或英文字母
+                </div>
+            </div>
+            <div class="list">
+                nickname <input type="text">
+                <div class="remind">
+                    用户名必须为4-16位数字或英文字母
+                </div>
+            </div>
+            <div class="submit">
+                <input type="button" name="login" value="我有账号，我要登录">
+                <input type="button" name="regs" value="注册">
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

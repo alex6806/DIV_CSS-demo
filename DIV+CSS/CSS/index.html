@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Generator" content="EditPlus®">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>Hello World</title>
+		<link rel="stylesheet" href="css/index.css">
+		<style>
+			/* hello */
+			/* p{color:red;}*/
+			div{
+				width:200px;
+				height:200px;
+				background-color:pink;
+			}
+			#second{
+				background-color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 style="color:red;">2019.04.09</h1>
+		<!-- 超链接跳转 -->
+		<a href="http://www.baidu.com" target="_blank">百度</a>
+		<a href="http://www.jd.com" target="_blank"><img src=""></a>
+		<!-- 锚点  目标位置id  跳转位置<a href="#id"></a>
+			png	支持透明 色彩多 大（小图片）
+			jpg	不支持透明 小 失真
+			gif	支持动态 大
+		-->
+		<!-- 
+			html 网页的骨架
+
+			css 层叠样式表	赋予样式
+
+			js	与用户的交互  数据交互
+			
+			标签 自带默认css
+				css 属性名:属性值;
+				css存放位置
+				1，标签内部(行内样式)  <div style="">这是一个div</div>
+					优缺点：精准度高 耦合度高(和html过分亲密) 
+					不利于维护 不可复用
+					js操控的是行内样式
+				2，style标签(内部样式) /* */
+					选择器{属性名:属性值;}
+				3，外部样式
+					@charset "utf-8";
+					<link rel="stylesheet" href="css/index.css">
+				行内样式 > 内部样式 = 外部样式
+
+		-->
+		<div style="color:blue;">这是一个div</div>
+		<div id="second">第二个div</div>
+		<p>这是一个p</p>
+		
+		<!-- 
+			color:red;字体颜色
+			background-color:pink;背景颜色
+			font-size:22px;
+			width宽度
+			height高度
+
+			选择器类型
+				标签选择器
+				id选择器  id具有唯一性，具有权重
+				命名规范
+					1，见名知意
+					2, alex-you	驼峰命名:alexYou
+				id作用:
+					1，划分大板块、布局
+					2，给js提供控制
+				class选择器  .class名{}复用性高
+
+				*选择器 选中全部标签(不使用)
+		-->
+	</body>
+</html>
